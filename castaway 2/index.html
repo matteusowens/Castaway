@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <title>Castaway</title>
+    <script type="module" crossorigin src="./index-BidcOHcx.js"></script>
+    <link rel="stylesheet" crossorigin href="./index-BEzb_VmA.css">
+  </head>
+  <body>
+    <div id="frame">
+      <div id="world"></div>
+      <canvas id="hud" width="320" height="200"></canvas>
+      <div id="board-scrim" hidden>
+        <div id="board" role="dialog" aria-label="Leaderboard">
+          <p id="board-title">Leaderboard</p>
+          <p id="board-clock"></p>
+          <p id="board-note"></p>
+          <ol id="board-list"></ol>
+          <form id="board-form">
+            <input id="board-name" maxlength="16" autocomplete="nickname" spellcheck="false" placeholder="Name" />
+            <button type="submit">Enter Post</button>
+          </form>
+          <button type="button" id="board-close">Esc Close</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

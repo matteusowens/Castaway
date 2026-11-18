@@ -1,0 +1,19 @@
+Castaway — put this folder on GitHub Pages
+
+These files are the finished site. Do not upload the TypeScript source.
+
+1. Unzip castaway.zip. You get a folder named castaway.
+2. Open https://github.com/matteusowens/Castaway
+3. Delete the old files in that repo (the .ts files and the old index.html).
+4. Click Add file, then Upload files.
+5. Drag this whole castaway folder onto the upload page. Do not upload the zip.
+6. Commit the upload.
+7. Open Settings, then Pages.
+8. Under Build and deployment, choose Deploy from a branch.
+9. Branch: main. Folder: / (root). Save.
+10. Wait about a minute, then open https://matteusowens.github.io/Castaway/
+    If it is still white, hard-refresh the page.
+
+The site needs index.html, index-*.js, index-*.css, favicon.svg, and .nojekyll
+sitting next to each other. .nojekyll is a hidden file. Drag the folder so it
+is included. Do not rename the js or css file.
